@@ -170,12 +170,15 @@ letter-spacing: -0.2vh;
   .navigation-vertical {
      z-index: 999;
     display: flex;
+    align-items: center;
     flex-direction: row;
-    width: 100%;
-    left: 0;
-    top: 0.6rem;
-    word-spacing: 10vh;
+      width: auto;
+    left: auto;
+    right: 2rem;
+    top: 0.2rem;
+    word-spacing: 2rem;
     letter-spacing: -0.2vh;
+
   }
   .navigation-vertical a {
     display: inline;
